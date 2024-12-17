@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+/* Add a border around the entire page */
+.page-border {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black; /* Border below header */
+}
+
+header img {
+  width: 150px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+  border-bottom: 2px solid black; /* Add a line between main content and footer */
+}
+
+.content {
+  width: 70%;
+}
+
+.content img {
+  width: 100%;
+  margin: 20px 0;
+}
+
+aside {
+  width: 30%;
+  padding-left: 20px;
+}
+
+aside h3 {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+aside ul {
+  list-style-type: none;
+}
+
+aside a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-top: 2px solid black; /* Line above the footer */
+}
+
+footer table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border: 1px solid black; /* Border for table */
+}
+
+footer td {
+  padding: 10px;
+  vertical-align: top;
+  width: 33%;
+  border: 1px solid black; /* Border for each cell */
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+footer .copyright {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+}
